@@ -1,0 +1,10 @@
+Pacote java.io
+"A benevolência é sobretudo um vício do orgulho e não uma virtude da alma." -- Doantien Alphonse François (Marquês de Sade)
+
+Ao término desse capítulo, você será capaz de:
+
+usar as classes wrappers (como Integer) e boxing;
+ler e escrever bytes, caracteres e Strings de/para a entrada e saída padrão;
+ler e escrever bytes, caracteres e Strings de/para arquivos;
+utilizar buffers para agilizar a leitura e escrita através de fluxos;
+usar Scanner e PrintStream.
