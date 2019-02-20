@@ -1,0 +1,3 @@
+Assim como todo o resto das bibliotecas em Java, a parte de controle de entrada e saída de 
+
+dados (conhecido como io) é orientada a objetos e usa os principais conceitos mostrados até 
