@@ -13,7 +13,7 @@ import java.io.Reader;
 import java.io.Writer;
 
 
-public class TesteGravaDoTeclado {
+public class TesteTecladoEConsole {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -23,17 +23,19 @@ public class TesteGravaDoTeclado {
 		BufferedReader br = new BufferedReader(isr);
 		String linha = br.readLine();
 		
-		OutputStream fos = new FileOutputStream("lorem2.txt");
+		OutputStream fos = System.out;
 		Writer osw = new OutputStreamWriter(fos);
 		BufferedWriter bw = new BufferedWriter(osw);
 		
 		while(linha != null && !linha.isEmpty()){
 			bw.write(linha);
 			bw.newLine();
+			
 			linha = br.readLine();
 			
 		}
 		
+		bw.flush();
 		br.close();
 		bw.close();
 		
